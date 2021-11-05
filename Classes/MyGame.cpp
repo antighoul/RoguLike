@@ -75,7 +75,7 @@ int main()
 		window.setView(view);
 		window.clear(Color::White);
 
-		/*for (int i = 0; i < HEIGHT_MAP; i++)
+		for (int i = 0; i < HEIGHT_MAP; i++)
 		{
 			for (int j = 0; j < WIDTH_MAP; j++)
 			{
@@ -87,8 +87,8 @@ int main()
 				window.draw(map);
 
 			}
-	    }*/
-		Smap(map, window);
+	    }
+		
 		
 			window.draw(p.sprite);
 		window.display();
