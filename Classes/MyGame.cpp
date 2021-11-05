@@ -8,7 +8,7 @@ using namespace sf;
 
 int main()
 {
-	RenderWindow window(VideoMode(640, 480), "Joska9 igra 228");
+	RenderWindow window(VideoMode(640, 480), "RogueLike");
 	view.reset(FloatRect(0, 0, 640, 480));
 	string f = "Hero.png";
 
